@@ -1,0 +1,453 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+		<title>GDI PHX - Dine & Demo: UX Edition</title>
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/gdi.css">
+
+		<!-- Theme used for syntax highlighting of code -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Additional styles -->
+		<link rel="stylesheet" href="css/style.css">
+
+		<!-- Custom Fonts -->
+		<link href='https://fonts.googleapis.com/css?family=Pacifico' rel='stylesheet' type='text/css'>
+		<script src="https://use.fontawesome.com/04687d104a.js"></script>
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+	</head>
+	<body>
+		<div class="reveal">
+			<div class="slides">
+				<!-- Slide 1: Logo -->
+				<section>
+					<img class="gdi-logo" src="img/gdi-phoenix.jpeg" />
+				</section>
+
+				<!-- Slide 2: Dine & Demo: UX Edition -->
+				<section class="slide-alt" data-background="#f06b62">
+					<h1>Dine &amp; Demo: UX Edition</h2>
+				</section>
+
+				<!-- Slide 3: Welcome -->
+				<section>
+					<h1>Welcome!</h2>
+					<p>So pleased to meet you! Here's a bit about me:</p>
+					<div class="self-overview">
+						<img class="self-selfie" src="https://pbs.twimg.com/profile_images/739196696815534080/BzaoYl4A.jpg" alt="Becky Sroufe" title="Becky Sroufe">
+						<ul class="self-info">
+							<li>Sr. UI/UX Designer at Healthways, Inc.</li>
+							<li>Just moved from Cincinnati, OH &#8594; PHX, AZ</li>
+							<li>Love art, code, hiking + board games</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Slide 4: What We'll Cover -->
+				<section>
+					<h1>What We'll Cover:</h2>
+					<ul>
+						<li>What is UX?</li>
+						<li>UX Basics</li>
+						<li>UX in today's tech teams</li>
+						<li>UX Tools &amp; Methods</li>
+						<li>Resources &amp; Q&amp;A time!</li>
+					</ul>
+				</section>
+
+				<!-- Slide 5: Rules -->
+				<section>
+					<h1>!important Rules:</h2>
+					<ul>
+						<li>Everyone welcome! :)</li>
+						<li>There are <em>no</em> "dumb" questions</li>
+						<li>GDI PHX is here for you!</li>
+					</ul>
+				</section>
+
+				<!-- Slide 6: -->
+				<section class="slide-alt" data-background="#f06b62">
+					<h1>What is UX?</h2>
+				</section>
+
+				<!-- Slide 7: -->
+				<section>
+					<h1>What is UX?</h2>
+					<p class="gdi-brand"><strong>UX == User Experience</strong></p>
+					<ul>
+						<li>We're <strong><em>all</em></strong> about the users.</li>
+						<li>Practice of using methods and techniques to research what users need to design products and services through them</li>
+						<li>Used to describe the effect created by interactions and perceptions that someone has when using a product or service</li>
+					</ul>
+				</section>
+
+				<!-- Slide 8: Confused About UX? -->
+				<section>
+					<h1 class="gdi-brand">Confused about UX?</h2>
+					<ul>
+						<li class="fragment"><span class="font-bold gdi-brand">UX: User Experience</span>
+							<ul>
+								<li>Encompasses any and all interactions between a user and a product, service, etc.</li>
+								<li><strong>Example:</strong> Design function, structure and features of a car</li>
+							</ul>
+						</li>
+						<li class="fragment"><span class="font-bold gdi-brand">UI: User Interface</span>
+							<ul>
+								<li>Focuses on taking UX and translating it into the look and feel</li>
+								<li><strong>Example:</strong> Get purpose, features and needs from UX and create how it looks</li>
+							</ul>
+						</li>
+					</ul>
+				</section>
+
+				<!-- Slide 9: Here's Why It's Confusing (con't) -->
+				<section>
+					<h2>Clearing up more UX confusion</h2>
+					<ul>
+						<li><strong>Ever heard of:</strong> <em>user experience (UX) designer, user interface designer, UX architect, web designer, user researcher, interaction designer, information architect, UX architect, graphic designer, visual designer, content strategist</em> ... and so on</li>
+						<li class="fragment"><strong>Related to:</strong> user interface, design, development - parts of all processes</li>
+					</ul>
+				</section>
+
+				<!-- Slide 10: Main UX Focus -->
+				<section>
+					<h1>Main UX Focus</h2>
+					<p>On a day-to-day basis, user experience may (and should) touch all realms but is primarily under <strong>user research</strong> and <strong>user experience design</strong>.
+				</section>
+
+				<!-- Slide 11: History of UX (Title) -->
+				<section class="slide-alt" data-background="#f06b62">
+					<h1>Brief History of UX</h2>
+				</section>
+
+				<!-- Slide 12: 1900's-->
+				<section>
+					<h1>Early 1900's</h2>
+					<div class="historical-person fragment">
+						<div class="taylor"></div>
+						<p>
+							Frederick Winslow Taylor<br />
+							<em>Mechanical Engineer</em>
+						</p>
+						<ul>
+							<li>Authors “The Principles of Scientific Management”</li>
+							<li>Research into efficiency of interactions between workers and tools</li>
+						</ul>
+					</div>
+					<div class="historical-person fragment">
+						<div class="ford"></div>
+						<p>
+							Henry Ford<br />
+							<em>Founder of Ford Company</em>
+						</p>
+						<ul>
+							<li>Pioneers mass-production techniques</li>
+							<li>Shape what interactions between laborers and tools should be</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Slide 13: 1948-->
+				<section>
+					<h1>1948: Toyota</h2>
+					<div class="toyota--img border-zero">
+						<img src="http://www.trozellidesign.com/wp-content/uploads/2015/05/Toyota.jpg" alt="Toyota" title="Toyota" />
+					</div>
+					<div class="toyota--info">
+						<ul>
+							<li class="fragment">Similar to Ford in valuing efficiency in engineering and production</li>
+							<li class="fragment">Sought employees' input - valued “respect for people” philosophy</li>
+							<li class="fragment">Workers involved in troubleshooting processes they were a part of via Andon Cord</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Slide 14: 1955-->
+				<section>
+					<h1>1955: Henry Dreyfuss</h2>
+					<div class="historical-person fragment">
+						<div class="dreyfuss"></div>
+						<p>
+							Henry Dreyfuss<br />
+							<em>Industrial designer</em>
+						</p>
+					</div>
+					<div class="historical-person">
+						<ul style="font-size: 1em;">
+							<li class="fragment">Wrote "Designing For People"</li>
+							<li class="fragment">Described many of the methods that UX designers employ today to understand and design for user needs</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Slide 15: Dreyfuss Quote -->
+				<section>
+					<blockquote>“When the point of contact between the product and the people becomes a point of friction, then the industrial designer has failed. On the other hand, if people are made safer, more comfortable, more eager to purchase, more efficient - or just plain happier - by contact with the product, then the designer has succeeded.”</blockquote>
+				</section>
+
+				<!-- Slide 16: 1970-->
+				<section>
+					<h1>1970: Xerox PARC</h2>
+					<div class="parc--img border-zero">
+						<img src="http://www.folklore.org/images/Macintosh/parc.jpg" alt="PARC" title="PARC" />
+					</div>
+					<div class="parc--info">
+						<ul>
+							<li class="fragment">PARC (Palo Alto Research Center)</li>
+							<li class="fragment">Yields graphical user interface (GUI), mouse, and computer-generated bitmap graphics</li>
+							<li class="fragment">Influenced the first commercial GUI in Apple’s Macintosh</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Slide 16: 1990s - Today -->
+				<section>
+					<h1>1990s - Today</h2>
+					<div class="">
+						<ul>
+							<li class="fragment">1990's: Apple brings design and UX into prominence</li>
+							<li class="fragment">1995: Don Norman coins term <span class="font-bold gdi-brand">user experience</span> to describe his team's work at Apple</li>
+							<li class="fragment">2007: The iPhone puts user experience in limelight by delighting users
+								<img class="iphone" src="http://img.timeinc.net/time/daily/2007/0707/iphone_320.jpg" alt="iPhone" title="iPhone" />
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Slide 17: UX Basics -->
+				<section class="slide-alt" data-background="#2a4758">
+					<h1>UX Basics</h2>
+				</section>
+
+				<!-- Slide 18: Research, Design, Implement -->
+				<section>
+					<h1>UX Basics</h2>
+					<div class="ux-basics">
+						<ul>
+							<li class="fragment">
+								<i class="fa fa-book" aria-hidden="true"></i>RESEARCH
+							</li>
+							<li class="fragment">
+								<i class="fa fa-paint-brush" aria-hidden="true"></i>DESIGN
+							</li>
+							<li class="fragment">
+								<i class="fa fa-wrench" aria-hidden="true"></i>IMPLEMENT
+							</li>
+						</ul>
+					</div>
+				</section>
+
+				<!-- Slide 19: Research (Detail) -->
+				<section>
+					<h1>UX Basics: Research</h2>
+					<p class="font-bold gdi-brand">Find out who your users are!</p>
+					<ul>
+						<li class="fragment">Guerrilla research (interview a small number of target users)</li>
+						<li class="fragment">External studies and research data</li>
+						<li class="fragment">Personas, Mental Models, User Stories</li>
+					</ul>
+				</section>
+
+				<!-- Slide 19: Research (Detail) -->
+				<section>
+					<h1>UX Basics: Design</h2>
+					<p class="font-bold gdi-brand">Build a system to fit user needs</p>
+					<ul class="ux-basics--design">
+						<li class="fragment">Information Architecture (IA)</li>
+						<li class="fragment">Process diagrams &amp; wireframes</li>
+						<li class="fragment">Design comps</li>
+					</ul>
+					<ul class="ux-basics--design">
+						<li class="fragment">Interaction specs</li>
+						<li class="fragment">Style + pattern guides</li>
+						<li class="fragment">Prototypes</li>
+					</ul>
+				</section>
+
+				<!-- Slide 20: Research (Detail) -->
+				<section>
+					<h1>UX Basics: Implement</h2>
+					<ul>
+						<li class="fragment">Testing, testing, testing!
+							<!--
+							<ul>
+								<li class="fragment">Quick and dirty usability test</li>
+								<li class="fragment">A/B test</li>
+								<li class="fragment">Five-second test</li>
+							</ul>
+							-->
+						</li>
+						<li class="fragment">Collaboration</li>
+						<li class="fragment">Analytics</li>
+					</ul>
+				</section>
+
+				<!-- Slide 21: Research (Detail) -->
+				<section>
+					<h1>UX Rules To Live By</h2>
+					<ul class="ux-rules">
+						<li class="fragment">Keep user informed</li>
+						<li class="fragment">Speak the users' language</li>
+						<li class="fragment">User control and freedom</li>
+						<li class="fragment">Consistency and standards</li>
+						<li class="fragment">Error prevention</li>
+					</ul>
+					<ul class="ux-rules">
+						<li class="fragment">Recognition rather than recall</li>
+						<li class="fragment">Flexibility and efficiency of use</li>
+						<li class="fragment">Aesthetic and minimalist design</li>
+						<li class="fragment">Help users recognize, diagnose, and recover from errors</li>
+						<li class="fragment">Help and documentation</li>
+					</ul>
+					<a class="fragment" href="" target="_blank">https://www.nngroup.com/articles/ten-usability-heuristics/</a>
+				</section>
+
+				<!-- Slide 22: UX in Today's Tech Teams -->
+				<section class="slide-alt" data-background="#d8ae64">
+					<h1>UX in Today's Tech Teams</h2>
+				</section>
+
+				<!-- Slide 23: UX in the industry -->
+				<section>
+					<h1>UX in the industry</h2>
+					<ul>
+						<li class="fragment"><span class="gdi-brand font-bold">Careers:</span> UX architect, UX designer, UI designer, visual designer, UX researcher, UI developer</li>
+						<li class="fragment">Still fairly new for most teams to adopt and have dedicated resource(s)</li>
+						<li class="fragment">Often teams want a "unicorn" - someone to do it all!
+							<ul>
+								<li class="fragment"><em>Short answer: Nope.</em></li>
+								<li class="fragment"><em>Long answer: Expand your knowledge, awareness and skills - but don't let it be undervalued!</em></li>
+							</ul>
+						</li>
+						<li class="fragment">Pay the UX debt upfront - incorporate UX at the beginning + throughout projec ts</li>
+					</ul>
+				</section>
+
+				<!-- Slide 24: UX Tools & Methods -->
+				<section class="slide-alt" data-background="#a05258">
+					<h1>UX Tools &amp; Methods</h2>
+				</section>
+
+				<!-- Slide 25: UX Playground -->
+				<section>
+					<h1>UX Playground</h2>
+					<p>Lots of great tools and methods - here's just a few:</p>
+					<ul class="ux-tools">
+						<li class="fragment">Journeymapping + personas</li>
+						<li class="fragment">Wireframing</li>
+						<li class="fragment">Processes diagram / mapping</li>
+						<li class="fragment">Moodboards</li>
+						<li class="fragment">Stakeholder Interviews</li>
+					</ul>
+					<ul class="ux-tools">
+						<li class="fragment">User interviews</li>
+						<li class="fragment">User testing</li>
+						<li class="fragment">Metrics analysis</li>
+						<li class="fragment">Prototyping</li>
+						<li class="fragment">Pattern library</li>
+					</ul>
+				</section>
+
+				<!-- Slide 26: Resources and Q&A -->
+				<section class="slide-alt" data-background="#f05b62">
+					<h1>Resources and Q&amp;A!</h2>
+				</section>
+
+				<!-- Slide 27: Resources -->
+				<section>
+					<h1>Resources: Books</h1>
+					<ul class="ux-resources">
+						<li class="fragment">
+							<img class="border-zero" src="https://images-na.ssl-images-amazon.com/images/I/417eQ5d7FiL._AC_UL320_SR208,320_.jpg" />
+							The Design Of Everyday Things
+							<span class="ux-resources--author">Don Norman</span>
+						</li>
+						<li class="fragment">
+							<img class="border-zero" src="http://rosenfeldmedia.com/wp-content/uploads/2014/11/17-ux-team-of-one-copy.jpg" />
+							The User Experience Team Of One
+							<span class="ux-resources--author">Leah Buley</span>
+						</li>
+						<li class="fragment">
+							<img class="border-zero" src="https://archive.org/download/designing-for-emotion/designing-for-emotion.jpg" alt="Designing For Emotion" title="Designing For Emotion" />
+							Designing For Emotion
+							<span class="ux-resources--author">Aaron Walter</span>
+						</li>
+					</ul>
+				</section>
+
+				<!-- Slide 28: Resources -->
+				<section>
+					<h1>Resources: Online</h1>
+					<ul>
+						<li class="fragment">Usability.gov: <a href="https://www.usability.gov/" target="_blank">www.usability.gov/</a></li>
+						<li class="fragment">UX Mag: <a href="http://uxmag.com/" target="_blank">www.uxmag.com/</a></li>
+						<li class="fragment">Nielsen Norman Group: <a href="https://www.nngroup.com/" target="_blank">www.nngroup.com/</a></li>
+						<li class="fragment">UX Booth: <a href="http://www.uxbooth.com/" target="_blank">www.uxbooth.com/</a></li>
+						<li class="fragment">UX Movement: <a href="http://uxmovement.com/" target="_blank">uxmovement.com/</a></li>
+					</ul>
+				</section>
+
+				<!-- Slide 29: Q&A -->
+				<section>
+					<h1>Questions?</h1>
+				</section>
+
+				<!-- Slide 30: Thank you! -->
+				<section>
+					<h1 class="font-decorative">Thank you!</h1>
+					<div class="">
+						<img class="border-zero" src="https://media3.giphy.com/media/h7mM2zQgb9mrS/200.gif" alt="Pokemon" title="Pokemon" />
+						<ul>
+							<h3>Reach me at the following:</h3>
+							<li>Twitter <a href="http://www.twitter.com/beckysroufe" target="_blank">@beckysroufe</a></li>
+							<li>LinkedIn <a href="http://www.linkedin.com/in/beckysroufe" target="_blank">/in/beckysroufe</a></li>
+							<li>E-mail <a href="mailto:becky@beckysroufe.com" target="_blank">becky@beckysroufe.com</a></li>
+						</ul>
+					</div>
+				</section>
+
+			</div> <!-- End Presentation -->
+
+			<!-- Footer -->
+			<footer>
+        <div class="copyright">
+          Girl Develop It &hearts; Don't be shy, develop it.  --
+          <a rel="license" href="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US"><img alt="Creative Commons License" style="border-width:0" src="http://i.creativecommons.org/l/by-nc/3.0/80x15.png" /></a>
+        </div>
+        <div class="author">
+        	<a href="http://www.twitter.com/beckysroufe">@beckysroufe</a>
+    		</div>
+      </footer>
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+			// More info https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				history: true,
+
+				// More info https://github.com/hakimel/reveal.js#dependencies
+				dependencies: [
+					{ src: 'plugin/markdown/marked.js' },
+					{ src: 'plugin/markdown/markdown.js' },
+					{ src: 'plugin/notes/notes.js', async: true },
+					{ src: 'plugin/highlight/highlight.js', async: true, callback: function() { hljs.initHighlightingOnLoad(); } }
+				]
+			});
+		</script>
+	</body>
+</html>

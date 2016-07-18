@@ -1,0 +1,247 @@
+/*********************************************
+ * GDI Presentation Styles
+ *********************************************/
+
+/*****
+GDI Colors
+Pink: #f05b62;
+Blue: #2a4758;
+Gold: #d8ae64;
+Mauve: #a05258;
+White: #fff;
+Gray: #333; 
+*****/
+
+/* Global Styling */
+img {
+  border-radius: 50%;
+}
+
+ul {
+  /* width: 75%; */
+}
+
+.gdi-brand {
+  color: #f06b62;
+}
+
+.font-bold {
+  font-weight: bold;
+}
+
+.font-decorative {
+  font-family: 'Pacifico', cursive !important;
+}
+
+.reveal .border-zero > img,
+img.border-zero {
+  border-radius: 0;
+}
+
+.reveal footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  font-size: 1rem;
+  color: #f06b62;
+}
+
+.reveal .copyright,
+.reveal .author {
+  display: inline-block;
+  width: 46%;
+  padding: 1%;
+}
+
+.reveal .copyright {
+  text-align: left;
+}
+
+.reveal .author {
+  text-align: right;
+}
+
+/* Components */
+.reveal .self-selfie,
+.reveal .self-info {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.reveal .self-selfie {
+  width: 23%;
+}
+
+.reveal .self-info {
+  width: 73%;
+}
+
+.reveal img.gdi-logo {
+  width: 50%;
+  border: 0;
+  box-shadow: none;
+}
+
+/* Alternate Slide Color */
+.reveal .slide-alt {
+  color: #fff;
+}
+
+.reveal .slide-alt h1 {
+  color: #fff;
+}
+
+.reveal .historical-person {
+  display: inline-block;
+  width: 46%;
+  vertical-align: top;
+}
+
+.reveal .historical-person .taylor,
+.reveal .historical-person .ford {
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+}
+
+.reveal .historical-person .taylor{
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/9/90/Frederick_Winslow_Taylor_crop.jpg/440px-Frederick_Winslow_Taylor_crop.jpg");
+}
+
+.reveal .historical-person .ford {
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/Henry_ford_1919.jpg/440px-Henry_ford_1919.jpg");
+}
+
+.reveal .historical-person > ul {
+  font-size: 0.8em;
+}
+
+.reveal .toyota--img,
+.reveal .toyota--info,
+.reveal .parc--img,
+.reveal .parc--info {
+  display: inline-block;
+  vertical-align: top;
+}
+
+.reveal .toyota--img,
+.reveal .parc--img { 
+  width: 40%;
+}
+
+.reveal .toyota--info,
+.reveal .parc--info {
+  width: 59%;
+}
+
+.reveal .dreyfuss {
+  width: 200px;
+  height: 200px;
+  margin-left: auto;
+  margin-right: auto;
+  background: url("http://www.nndb.com/people/793/000097502/henrydreyfuss02.jpg") center center no-repeat;
+  background-size: 100%;
+  border-radius: 50%;
+}
+
+.reveal img.iphone {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border: 0;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.reveal .ux-basics {
+  padding-top: 20px;
+}
+
+.reveal .ux-basics ul {
+  list-style-type: none;
+}
+
+.reveal .ux-basics ul li {
+  display: inline-block;
+  width: 25%;
+  padding: 0 3%;
+  text-align: center;
+}
+
+.reveal .ux-basics ul li > i {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 20px;
+  font-size: 2em;
+}
+
+.reveal .ux-rules,
+.reveal .ux-tools {
+  display: inline-block;
+  width: 46%;
+  vertical-align: top;
+}
+
+.reveal .ux-resources {
+  list-style-type: none;
+}
+
+.reveal .ux-resources li {
+  display: inline-block;
+  width: 30%;
+  text-align: center;
+  vertical-align: top;
+  font-size: 0.8em;
+}
+
+.reveal .ux-resources img {
+  display: block;
+  height: 300px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.reveal .ux-resources--author {
+  display: block;
+  font-style: italic;
+}
+
+/* CUSTOM FONTS */
+/* Load GDI font League Gothic */
+@font-face {
+  font-family: 'League Gothic';
+  src: url('../fonts/gotham/league_gothic-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/gotham/league_gothic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/gotham/league_gothic-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/gotham/league_gothic-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/gotham/league_gothic-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/gotham/league_gothic-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* CUSTOM FONTS */
+/* Load GDI font League Gothic */
+@font-face {
+  font-family: 'Gotham Bold';
+  src: url('../fonts/gotham/gothamrnd-medium-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/gotham/gothamrnd-medium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/gotham/gothamrnd-medium-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/gotham/gothamrnd-medium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/gotham/gothamrnd-medium-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/gotham/gothamrnd-medium-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+/* Load GDI font Gotham */
+@font-face {
+  font-family: 'Gotham Light';
+  src: url('../fonts/gotham/gothamrnd-light-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/gotham/gothamrnd-light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/gotham/gothamrnd-light-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/gotham/gothamrnd-light-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/gotham/gothamrnd-light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/gotham/gothamrnd-light-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
