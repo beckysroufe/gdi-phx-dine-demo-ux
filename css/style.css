@@ -188,6 +188,11 @@ img.border-zero {
   vertical-align: top;
 }
 
+.reveal .ux-rules-resource {
+  font-size: 0.75em;
+  line-height: 4em;
+}
+
 .reveal .ux-resources {
   list-style-type: none;
 }
@@ -206,9 +211,21 @@ img.border-zero {
   margin-left: auto;
   margin-right: auto;
 }
+
 .reveal .ux-resources--author {
   display: block;
   font-style: italic;
+}
+
+.reveal .thank-you--img,
+.reveal .thank-you--contact {
+  width: 45%;
+  vertical-align: top;
+}
+
+.reveal .thank-you--contact {
+  list-style-type: none;
+  margin-top: 30px;
 }
 
 /* CUSTOM FONTS */
