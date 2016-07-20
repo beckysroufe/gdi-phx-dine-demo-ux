@@ -231,34 +231,34 @@ img.border-zero {
 /* CUSTOM FONTS */
 /* Load GDI font League Gothic */
 @font-face {
-  font-family: 'League Gothic';
-  src: url('../fonts/gotham/league_gothic-webfont.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/gotham/league_gothic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/gotham/league_gothic-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/gotham/league_gothic-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/gotham/league_gothic-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/gotham/league_gothic-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-family: 'League-Gothic';
+  src: url('../fonts/Gotham/league_gothic-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Gotham/league_gothic-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Gotham/league_gothic-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Gotham/league_gothic-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Gotham/league_gothic-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Gotham/league_gothic-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 /* CUSTOM FONTS */
 /* Load GDI font League Gothic */
 @font-face {
-  font-family: 'Gotham Bold';
-  src: url('../fonts/gotham/gothamrnd-medium-webfont.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/gotham/gothamrnd-medium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/gotham/gothamrnd-medium-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/gotham/gothamrnd-medium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/gotham/gothamrnd-medium-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/gotham/gothamrnd-medium-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-family: 'Gotham-Bold';
+  src: url('../fonts/Gotham/gothamrnd-medium-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Gotham/gothamrnd-medium-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Gotham/gothamrnd-medium-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Gotham/gothamrnd-medium-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Gotham/gothamrnd-medium-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Gotham/gothamrnd-medium-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 /* Load GDI font Gotham */
 @font-face {
-  font-family: 'Gotham Light';
-  src: url('../fonts/gotham/gothamrnd-light-webfont.eot'); /* IE9 Compat Modes */
-  src: url('../fonts/gotham/gothamrnd-light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-       url('../fonts/gotham/gothamrnd-light-webfont.woff2') format('woff2'), /* Super Modern Browsers */
-       url('../fonts/gotham/gothamrnd-light-webfont.woff') format('woff'), /* Pretty Modern Browsers */
-       url('../fonts/gotham/gothamrnd-light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
-       url('../fonts/gotham/gothamrnd-light-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
+  font-family: 'Gotham-Light';
+  src: url('../fonts/Gotham/gothamrnd-light-webfont.eot'); /* IE9 Compat Modes */
+  src: url('../fonts/Gotham/gothamrnd-light-webfont.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+       url('../fonts/Gotham/gothamrnd-light-webfont.woff2') format('woff2'), /* Super Modern Browsers */
+       url('../fonts/Gotham/gothamrnd-light-webfont.woff') format('woff'), /* Pretty Modern Browsers */
+       url('../fonts/Gotham/gothamrnd-light-webfont.ttf')  format('truetype'), /* Safari, Android, iOS */
+       url('../fonts/Gotham/gothamrnd-light-webfont.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
